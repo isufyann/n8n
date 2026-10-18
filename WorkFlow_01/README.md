@@ -58,4 +58,8 @@ Keep learning. Keep experimenting. Keep building! 🚀💪
 
 @isufyann
 
-![Image ](url)
+## Reference image is below
+
+![Image](get_joke_01.png)
+![Image](get_joke_02.png)
+![Image](get_joke_03.png)
