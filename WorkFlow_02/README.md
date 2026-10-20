@@ -110,7 +110,7 @@ Congratulations, your workflow now runs manually. Along the way, you’ve learne
 
 
 ```mermaid
-pie title Favorite Types of Food
+pie title n8n Progress Chart
     "Daily Progress" : 20
     "Working" : 40
     "Learning" : 30
