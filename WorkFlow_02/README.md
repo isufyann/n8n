@@ -108,6 +108,9 @@ Congratulations, your workflow now runs manually. Along the way, you’ve learne
 
 ![Image](BerlinTempUpdateTable.png)
 
+![Image](Final.png)
+
+
 
 ```mermaid
 pie title n8n Progress Chart
