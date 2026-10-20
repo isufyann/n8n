@@ -1,3 +1,13 @@
+### Data Work Flow Diagram
+
+```mermaid
+graph LR
+A[Hard edge] -->B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+```
+
 # Work Flow Testing 2
 # Build Weather Update and store in the Data Table
 
@@ -86,6 +96,9 @@ Congratulations, your workflow now runs manually. Along the way, you’ve learne
 •	Work with data between nodes. The output of one node becomes the input of the next. **Understand n8n's data structure**.<br/>
 •	Use expressions. Dragging fields in builds an expression for you, so you can use live data without writing code. **Expressions for data transformation**.<br/>
 •	Store data. Each run saves a new row to your data table, so you keep every report after the workflow finishes. **Data tables**.<br/>
+
+
+
 
 
 ![Image](BerlinTempUpdate.png)
