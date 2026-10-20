@@ -5,7 +5,7 @@ graph LR
 A(Trigger) -->|Execute| B(Get Weather)
     B -->|Execute| C(Weather Message)
     C -->|Execute| D(Insert Row)
-    C -->|Execute| E[Result two]
+    C -->|Execute| E[Table Data]
 ```
 ```
 Run Execute
