@@ -48,7 +48,7 @@ You’ve got your trigger, so it’s time to fetch the weather. The HTTP Request
 
 ## 4. Turn the weather into a report
    
-```You’ll use: Edit Fields (Set)```
+`You’ll use: Edit Fields (Set)`
 
 Next, you’ll turn the weather data into a short report that anyone can read at a glance.
 
@@ -60,13 +60,13 @@ Next, you’ll turn the weather data into a short report that anyone can read at
 
 ```The temperature in {{ $json.city }}```
 
-## 4.	Drag temp_c in and update the wording to:
+4.	Drag temp_c in and update the wording to:
 
 ```The temperature in {{ $json.city }} is {{ $json.temp_c }}°C.```
 
 ## 5.	Rename the node to Format Weather Message and select Execute step. You should see output like:
 
-```The temperature in berlin is 7.4°C. It's currently overcast.```
+`The temperature in berlin is 7.4°C. It's currently overcast.`
 
 ## 5. Save the data
 
