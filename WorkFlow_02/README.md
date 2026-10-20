@@ -2,10 +2,13 @@
 
 ```mermaid
 graph LR
-A[Hard edge] -->B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
+A(Trigger) -->|Execute| B(Get Weather)
+    B -->|Execute| C(Weather Message)
+    C -->|Execute| D(Insert Row)
+    C -->|Execute| E[Result two]
+```
+```
+Run Execute
 ```
 
 # Work Flow Testing 2
