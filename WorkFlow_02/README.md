@@ -1,5 +1,5 @@
 # Work Flow Testing 2
-# Build your first workflow
+# Build Weather Update and store in the Data Table
 
 In this quick start, you’ll build a workflow that fetches the weather for Berlin every morning and turns it into a short report anyone can read at a glance. The workflow saves each report to a data table, so you build up a weather log over time.
 
@@ -76,11 +76,11 @@ Your workflow is complete. Test it, then publish it so it runs every day at 8 AM
 1.	Select Execute workflow to test it, then open the weather_data table to check that n8n inserted a row.
 2.	Select Publish in the Canvas header and follow the prompts to publish the workflow.
 
-## What you learned
+## What learned
 
-Congratulations, your workflow now runs at 8 AM every day. Along the way, you’ve learned how to:
+Congratulations, your workflow now runs manually. Along the way, you’ve learned how to:
 
-•	Start a workflow with a trigger. Yours runs on a schedule. **Schedule Trigger**.<br/>
+•	Start a workflow with a trigger. Yours runs on a schedule also possible. **Schedule Trigger**.<br/>
 •	Add and connect nodes. Each node does one job and passes its result to the next. **Work with nodes**.<br/>
 •	Fetch data from an API. You used the HTTP Request node to get weather data from a web address. **HTTP Request**.<br/>
 •	Work with data between nodes. The output of one node becomes the input of the next. **Understand n8n's data structure**.<br/>
@@ -89,6 +89,7 @@ Congratulations, your workflow now runs at 8 AM every day. Along the way, you’
 
 
 ![Image](BerlinTempUpdate.png)
+
 ![Image](BerlinTempUpdateTable.png)
 
 
