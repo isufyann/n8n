@@ -109,6 +109,12 @@ Congratulations, your workflow now runs manually. Along the way, you’ve learne
 ![Image](BerlinTempUpdateTable.png)
 
 
-
+```mermaid
+pie title Favorite Types of Food
+    "Daily Progress" : 20
+    "Working" : 40
+    "Learning" : 30
+    "Execution" : 10
+```
 
 <br/>
