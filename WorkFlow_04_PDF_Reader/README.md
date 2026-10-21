@@ -274,6 +274,7 @@ Explain the most important message the reader should remember.
 Important: `{{ $json.summaries }}` is a placeholder for the combined input. In n8n, you must actually aggregate the outputs from all chunk summaries into one field named summaries, or change the expression to match your data structure.
 
 
+![Image WorkFlow PDF Summarization](WorkFlow_PDF_Reader.png)
 
 
 
